@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="App">
+  <grid id="27dc6" binding="application" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="100" y="113" width="646" height="505"/>
+    </constraints>
+    <properties>
+      <background color="-14078666"/>
+      <foreground color="-14539475"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="ba565" class="javax.swing.JButton" binding="buttonSbtr">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/minus-symbol.png"/>
+          <name value="-"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fa8a5" class="javax.swing.JButton" binding="buttonMultiply">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/multiplication-sign.png"/>
+          <name value="x"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3df8b" class="javax.swing.JButton" binding="buttonDivision">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Symbol" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/division3.png"/>
+          <name value="/"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b417" class="javax.swing.JTextPane" binding="answerField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="10"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <editable value="false"/>
+          <enabled value="true"/>
+          <font name="Open Sans" size="48" style="1"/>
+          <foreground color="-1"/>
+        </properties>
+        <clientProperties>
+          <caretWidth class="java.lang.Integer" value="0"/>
+        </clientProperties>
+      </component>
+      <component id="5dcc5" class="javax.swing.JTextPane" binding="answerNoReset">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="4" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="15"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <editable value="false"/>
+          <focusable value="false"/>
+          <font name="Open Sans" size="14" style="1"/>
+          <foreground color="-956312"/>
+          <margin top="15" left="3" bottom="3" right="3"/>
+        </properties>
+        <clientProperties>
+          <caretWidth class="java.lang.Integer" value="0"/>
+        </clientProperties>
+      </component>
+      <component id="b1be0" class="javax.swing.JButton" binding="a0Button" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="a9648" class="javax.swing.JButton" binding="buttonPlus">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/addition-thick-symbol.png"/>
+          <name value="+"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="18afe" class="javax.swing.JButton" binding="a1Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="d43b8" class="javax.swing.JButton" binding="a2Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="60234" class="javax.swing.JButton" binding="a3Button" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="55e38" class="javax.swing.JButton" binding="a4Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="f4b0b" class="javax.swing.JButton" binding="a5Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="bacc1" class="javax.swing.JButton" binding="a6Button" default-binding="true">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="445e7" class="javax.swing.JButton" binding="a9Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="940f8" class="javax.swing.JButton" binding="a8Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="a7348" class="javax.swing.JButton" binding="a7Button" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="20" style="1"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="30d5e" class="javax.swing.JButton" binding="buttonEqls">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/equal.png"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="21704" class="javax.swing.JButton" binding="buttonClear">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="7f648" class="javax.swing.JButton" binding="buttonBackspace">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipadx="20" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Symbol" size="18" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <icon value="imgs/backspace.png"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d9cf6" class="javax.swing.JButton" binding="buttonRomanMode">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="14" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <name value="R"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Roman"/>
+        </properties>
+      </component>
+      <component id="c9371" class="javax.swing.JLabel" binding="mode">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="33" bottom="0" right="0" weightx="0.0" weighty="0.0" ipady="10"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <background color="-14078666"/>
+          <enabled value="true"/>
+          <font name="Open Sans" size="16" style="1"/>
+          <foreground color="-956312"/>
+          <horizontalAlignment value="2"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="effcb" class="javax.swing.JButton" binding="buttonBinary">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0" ipady="20"/>
+        </constraints>
+        <properties>
+          <background color="-14078666"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <focusPainted value="true"/>
+          <focusable value="true"/>
+          <font name="Open Sans" size="14" style="1"/>
+          <foreground color="-956312"/>
+          <hideActionText value="false"/>
+          <name value="R"/>
+          <opaque value="true"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Binary"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
