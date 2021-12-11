@@ -12,3 +12,4 @@ Binary Number Mode:
 - Converts the integer calculated into Binary
 
 ## Appearance
+![](imgs/
