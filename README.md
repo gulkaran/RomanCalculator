@@ -2,6 +2,7 @@
 Java Swing based calculator which allows for roman numeral and binary conversion of integers
 
 ## Features
+--
 - Allows for simple arithmetic operations such as addition, subtraction, mulitplication, and division. 
 - Includes All-Clear, Backspace, and different Modes
 
@@ -12,4 +13,7 @@ Binary Number Mode:
 - Converts the integer calculated into Binary
 
 ## Appearance
-![](imgs/
+--
+![](src/imgs/example1.png)
+![](src/imgs/example2.png)
+
